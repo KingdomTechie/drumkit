@@ -76,6 +76,8 @@ function makeAnimation(currentKey) {
     const activeButton = document.querySelector(`.${currentKey}`)
     
     activeButton.classList.toggle("pressed")
-
     
+    setTimeout(function () {
+        activeButton.classList.toggle("pressed")
+    }, 10)
 }
