@@ -79,5 +79,5 @@ function makeAnimation(currentKey) {
     
     setTimeout(function () {
         activeButton.classList.toggle("pressed")
-    }, 10)
+    }, 100)
 }
